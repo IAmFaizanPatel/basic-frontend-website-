@@ -1,0 +1,104 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+
+li a {
+    text-decoration: none;
+    color: #45a29e;
+    font-size: 1.4em;
+}
+
+header{
+    padding: 20px 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0b0c10;
+}
+
+.logo{
+    padding-right: 40%;
+    padding-left: 5%;
+}
+
+nav ul{
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+nav li{
+    width: 33%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav li a:hover{
+    text-decoration:underline;
+}
+
+header h1{
+    color: #45a29e;
+    border: 8px solid;
+    border-color: 45a29e;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.banner{
+    margin-top: 7%;
+    position: relative;
+    background-color: #0b0c10;
+
+}
+
+.banner img{
+    width: 100%;
+}
+
+
+.banner .welcome{
+    color: #45a29e;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    left: 20%;
+}
+
+.welcome h2{
+    font-size: 4.5em;
+}
+
+.welcome p{
+    font-size: 1.3em;
+}
+
+div.icons{
+    font-size: 2rem;
+}
+
+.icons i{
+    padding-right: 1.2rem;
+}
+.icons i:hover{
+    font-size: 2.2rem;
+}
+
+footer{
+    background:#0b0c10;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+

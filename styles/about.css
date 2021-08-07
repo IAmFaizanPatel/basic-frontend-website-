@@ -1,0 +1,137 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    position: relative;
+    background: #0b0c10;
+    padding: 18px;
+}
+
+nav ul{
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+    max-width: 1200px;  
+    background: #0b0c10;  
+}
+
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 22px;
+    background: #0b0c10;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #45a29e;
+    background: #0b0c10;
+}
+
+nav li a:hover{
+    text-decoration:underline;
+}
+header{
+    padding: 20px 0 0 0;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #0b0c10;
+    font-size: 35px;
+}
+
+.title::first-letter{
+    color: #66fcf1;
+    font-size: 1.3em;
+}
+
+main {
+    width: 1200px;
+    text-align: center;
+    margin-left: 10%;
+}
+main li{
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+    margin: 20px 4.5%;
+    width: 40%;
+}
+
+main li p.quote{
+    font-size: 80px;
+    margin-left: 10%;
+}
+
+p.quote span{
+    color: #66fcf1;
+    font-size: 1.4em;
+}
+
+main li.short h3{
+    font-size: 1.4em;
+    color: #45a29e;
+}
+
+main li.short p{
+    font-size: 1.8em;
+}
+
+main li.short p span{
+    color: #45a29e;
+}
+
+section {
+    width: 1200px;
+    text-align: center;
+    margin-left: 10%;
+    color: #0b0c10;
+}
+section li {
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+    margin: 20px 0;
+    width: 40%;
+}
+
+li.long{
+    margin-right: 12%;
+}
+
+section li.long h3{
+    text-align: start;
+    font-size: 1.4em;
+    color: #45a29e;
+}
+
+section li.long p{
+    text-align:start;
+    font-size: 1.2em;
+}
+
+section li.slogan p{
+    color: #45a29e;
+    font-size: 80px;
+
+}
+
+section li p span{
+    color: brown;
+    font-size: 80px;
+}
+
+
+footer{
+    background:#0b0c10;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
